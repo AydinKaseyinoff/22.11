@@ -93,6 +93,7 @@ body {
 .about_us {
   max-width: 1400px;
   margin: auto;
+  margin-top: 80px;
 }
 .about_us h1 {
   font-size: 70px;
@@ -101,6 +102,7 @@ body {
 .about_us p {
   font-size: 25px;
   color: #9f9f9f;
+  margin-bottom: 40px;
 }
 .about_container {
   max-width: 1300px;
