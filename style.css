@@ -130,6 +130,9 @@ body {
   max-width: 1400px;
   margin: auto;
 }
+.services_title {
+  margin-top: 90px;
+}
 .services h1 {
   font-size: 70px;
   color: #fff;
@@ -137,6 +140,7 @@ body {
 .services p {
   font-size: 25px;
   color: #9f9f9f;
+  margin-bottom: 60px;
 }
 .card {
   width: 23%;
@@ -181,6 +185,7 @@ body {
 .fleets {
   max-width: 1700px;
   margin: auto;
+  margin-top: 90px;
 }
 .fleets h1 {
   font-size: 70px;
@@ -189,6 +194,7 @@ body {
 .fleets p {
   font-size: 25px;
   color: #9f9f9f;
+  margin-bottom: 80px;
 }
 .mercedes {
   background-image: url(./img/fleets_bg.png);
@@ -216,7 +222,7 @@ body {
 .mercedes img {
   position: absolute;
   left: 577px;
-  top: 2270px;
+  top: 2675px;
 }
 .mercedes_link {
   margin-top: 55px;
