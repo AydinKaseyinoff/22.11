@@ -243,3 +243,42 @@ body {
   max-width: 1400px;
   margin: auto;
 }
+.slide_car {
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+.slide_card {
+  background-color: #494949;
+  border-radius: 20px;
+  width: 32%;
+  height: 30vh;
+}
+.slide_card h3 {
+  color: #fff;
+  position: absolute;
+  padding-left: 135px;
+  padding-top: 20px;
+  top: 3463px;
+}
+.slide_card img {
+  padding-top: 30px;
+}
+.partners {
+  margin-top: 140px;
+}
+.why {
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 90px;
+}
+.why h1 {
+  font-size: 70px;
+  color: #fff;
+}
+.why p {
+  font-size: 25px;
+  color: #818181;
+}
