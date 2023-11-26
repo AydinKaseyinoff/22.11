@@ -281,4 +281,53 @@ body {
 .why p {
   font-size: 25px;
   color: #818181;
+  margin-bottom: 70px;
+}
+.why_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.why_card {
+  width: 48.48%;
+  display: flex;
+  justify-content: space-between;
+  height: 23vh;
+  background-color: #333333;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+.why_card h1 {
+  font-size: 25px;
+  color: #fff;
+}
+.why_card p {
+  font-size: 16px;
+  color: #fff;
+}
+.why_left {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.why_in {
+  display: flex;
+  max-width: 627px;
+  margin: auto;
+}
+.contacts {
+  max-width: 1400px;
+  margin: auto;
+}
+.contacts_title h1 {
+  font-size: 70px;
+  margin-top: 60px;
+  color: #fff;
+}
+.contacts_title p {
+  font-size: 25px;
+  color: #9f9f9f;
 }
