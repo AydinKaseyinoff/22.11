@@ -255,16 +255,31 @@ body {
   border-radius: 20px;
   width: 32%;
   height: 30vh;
+  transition: all 0.3s ease;
 }
+.slide_card:hover {
+  background-color: #fff;
+}
+.slide_card img {
+  padding-top: 30px;
+  width: 90%;
+  transition: all 0.3s ease, background-color 0.3s ease; /* Добавлено свойство background-color для анимации цвета фона */
+}
+
+.slide_card:hover img {
+  width: 100%;
+  border-radius: 10px;
+}
+.slide_card img:hover > .slide_card {
+  background-color: #fff;
+}
+
 .slide_card h3 {
   color: #fff;
   position: absolute;
   padding-left: 135px;
   padding-top: 20px;
   top: 3463px;
-}
-.slide_card img {
-  padding-top: 30px;
 }
 .partners {
   margin-top: 140px;
@@ -330,4 +345,14 @@ body {
 .contacts_title p {
   font-size: 25px;
   color: #9f9f9f;
+}
+.contacts_in {
+  display: flex;
+  justify-content: space-between;
+}
+.input_box input {
+  background-color: #3a3a3a;
+  height: 5vh;
+  border-radius: 10px;
+  width: 100%;
 }
